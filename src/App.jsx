@@ -1,10 +1,10 @@
-// import './App.css'
+import './App.css'
 import WeatherApp from "./components/WeatherApp";
 
 function App() {
 
   return (
-    <div style = {{textAlign:"center"}} >
+    <div className='app'>
     <WeatherApp />
     </div>
   )
